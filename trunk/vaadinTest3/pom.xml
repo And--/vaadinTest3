@@ -122,6 +122,25 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
+			
+					  <plugin>
+		 <groupId>com.jelastic</groupId>
+		 <artifactId>jelastic-maven-plugin</artifactId>
+		 <version>1.7-SNAPSHOT</version>
+		 <configuration>
+		    <email>[insert your Jelastic login]</email>
+		    <password>[insert your Jelastic password]</password>
+		    <context>[specify the context if you need it]</context>
+		    <environment>[insert the name of Jelastic environment]</environment>
+		    <comment>[insert comment if you need it]</comment>
+		 
+   <api_hoster>[put here API of your hoster] --></api_hoster>
+ </configuration>
+</plugin>
+			
+			
+			
+			
 			<plugin>
 				<groupId>com.vaadin</groupId>
 				<artifactId>vaadin-maven-plugin</artifactId>
