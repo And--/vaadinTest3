@@ -144,21 +144,7 @@
 					<runTarget>http://localhost:8080/</runTarget>
 				</configuration>
 			
-				  <executions>
-                <execution>
-                    <configuration>
-                        <!-- if you don't specify any modules, the plugin will find them -->
-                        <!--
-                        <modules>
-                            <module>${package}.gwt.MyWidgetSet</module>
-                        </modules>
-                        -->
-                    </configuration>
-                    <goals>
-                        <goal>update-widgetset</goal>
-                    </goals>
-                </execution>
-            </executions>
+			
 				
 				
 				
